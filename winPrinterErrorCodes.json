@@ -1,0 +1,17 @@
+{
+	"1": "Printer paused",
+	"2": "Printer error",
+	"8": "Paper jam",
+	"16": "Out of paper",
+	"64": "Paper problem",
+	"128": "Printer offline",
+	"512": "Printer busy",
+	"2048": "Printer output bin full",
+	"4096": "Not available.",
+	"262144": "No toner",
+	"524288": "Page punt",
+	"1048576": "User intervention",
+	"2097152": "Out of memory",
+	"4194304": "Door open",
+	"8388608": "Server unknown"
+}

@@ -1,0 +1,56 @@
+{
+	"name": "satellite-printer",
+	"version": "1.0.2",
+	"description": "Satellite Printer",
+	"main": "main.js",
+	"author": {
+		"name": "Urbanpiper",
+		"email": "eng@urbanpiper.com"
+	},
+	"scripts": {
+		"start": "electron .",
+		"pack": "build --dir",
+		"dist": "build",
+		"win": "build --win",
+		"mac": "build --m",
+		"build": "cd scripts && node build"
+	},
+	"repository": "https://github.com/electron/electron-quick-start",
+	"devDependencies": {
+		"electron": "^3.1.11",
+		"electron-builder": "^20.44.4",
+		"electron-winstaller": "^3.0.4"
+	},
+	"build": {
+		"appId": "",
+		"productName": "Satellite Printer",
+		"mac": {
+			"category": ""
+		},
+		"directories": {
+			"buildResources": "buildResources"
+		},
+		"protocols": [
+			{
+				"name": "sat",
+				"role": "Viewer",
+				"schemes": [
+					"sat"
+				]
+			}
+		],
+		"win": {
+			"target": "nsis"
+		},
+		"nsis": {
+			"perMachine": true
+		}
+	},
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"electron-json-storage": "^4.1.6",
+		"express": "^4.17.1",
+		"get-port": "^5.0.0",
+		"node-fetch": "^2.6.0"
+	}
+}

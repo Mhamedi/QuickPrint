@@ -1,0 +1,112 @@
+{
+	"customer": {
+		"address": {
+			"city": "Bengaluru",
+			"is_guest_mode": false,
+			"landmark": null,
+			"latitude": 28.611,
+			"line_1": "204, Brigade IRV Center,",
+			"line_2": null,
+			"longitude": 77.37,
+			"pin": "560066",
+			"sub_locality": "Whitefield, Bengaluru, Karnataka",
+			"tag": "Home"
+		},
+		"email": "abc.12334@gmail.com",
+		"name": "Abc Mojasasf",
+		"phone": "9876543210"
+	},
+
+	"order": {
+		"details": {
+			"channel": "zomato",
+			"charges": [{ "title": "Packaging Charges", "value": 15 }],
+			"coupon": "",
+			"created": 1562077232000,
+			"delivery_datetime": 1562079932000,
+			"discount": 40,
+			"ext_platforms": [
+				{
+					"delivery_type": "partner",
+					"discounts": [
+						{
+							"is_merchant_discount": true,
+							"title": "Merchant Voucher Code",
+							"value": 40
+						}
+					],
+					"extras": {},
+					"id": "1679968639",
+					"kind": "food_aggregator",
+					"name": "zomato"
+				}
+			],
+			"id": 123124235,
+			"instructions": "",
+			"item_level_total_charges": 0,
+			"item_level_total_taxes": 4.5,
+			"item_taxes": 0,
+			"merchant_ref_id": "123124345",
+			"order_level_total_charges": 15,
+			"order_level_total_taxes": 0,
+			"order_state": "Placed",
+			"order_subtotal": 130,
+			"order_total": 109.5,
+			"order_type": "delivery",
+			"state": "Placed",
+			"taxes": [],
+			"total_charges": 15,
+			"total_external_discount": 0,
+			"total_taxes": 4.5
+		},
+		"items": [
+			{
+				"charges": [],
+				"discount": 0,
+				"food_type": "1",
+				"id": 28278,
+				"image_landscape_url": "https://s3.ap-south-1.amazonaws.com/mumbai.urbanpiper.com/media/bizmedia/l/2018/01/09/kalakand_COMPRESSED.jpg",
+				"image_url": null,
+				"merchant_id": "0075",
+				"options_to_add": [
+					{
+						"id": 8865,
+						"merchant_id": "01UJ",
+						"price": 130,
+						"title": "250 grams",
+						"unit_weight": null
+					}
+				],
+				"options_to_remove": [],
+				"price": 0,
+				"quantity": 1,
+				"taxes": [{ "rate": 5, "title": "GST@5%", "value": 4.5 }],
+				"title": "Kalakand",
+				"total": 130,
+				"total_with_tax": 134.5,
+				"unit_weight": 0
+			}
+		],
+		"next_state": "Acknowledged",
+		"next_states": ["Acknowledged", "Food Ready", "Dispatched", "Completed"],
+		"payment": [
+			{ "amount": 109.5, "option": "payment_gateway", "srvr_trx_id": null }
+		],
+		"status_updates": [
+			{
+				"created": 1562077232000,
+				"message": null,
+				"status": "Placed",
+				"updated_by": "Zomato API Access"
+			}
+		],
+		"store": {
+			"address": "",
+			"id": 1461,
+			"latitude": 28.617999,
+			"longitude": 77.370672,
+			"merchant_ref_id": "004",
+			"name": "Nallurhalli. </br>(Sweets & Bakery)"
+		}
+	}
+}

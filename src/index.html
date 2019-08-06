@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta />
+		<meta />
+		<meta />
+		<title>Satellite client</title>
+		<link rel="stylesheet" href="index.css"></link>
+	</head>
+	<body>
+		<div class="container">
+			<div class="content">
+				<!-- <h1>Printers</h1>
+				<div id="printers"></div> -->
+
+				<div class="selections">
+					<h2>Manage Printers</h2>
+					
+					<div class="selection">
+						<div>
+							<h3>Main</h3>
+
+							<div class="selectors">
+								<select onchange="toggleButtonDisable(false)" name="main">
+									<option selected disabled>Select an option</option>
+								</select>
+								<!-- <button disabled class="selection-btn">Change</button> -->
+							</div>
+						</div>
+					</div>
+					
+					<div class="selection">					
+						<div>
+							<h3>Kitchen</h3>
+
+							<div class="selectors">
+								<select onchange="toggleButtonDisable(false)" name="kitchen">
+									<option selected disabled>Select an option</option>
+								</select>
+								<!-- <button disabled class="selection-btn">Change</button> -->
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="update-btn-container">
+					<button class="update-btn" disabled>Update</button>
+				</div>
+			</div>
+		</div>
+
+	</body>
+	<script type="text/javascript" src="index.js"></script>
+</html>
