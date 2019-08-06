@@ -1,4 +1,4 @@
-# Silent Printer
+# QuickPrint
 Electrorn app to handle printing request from browser and handle the print job silently.
 
 ## How to use:  
