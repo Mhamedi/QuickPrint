@@ -7,7 +7,8 @@ Electrorn app to handle printing request from browser and handle the print job s
 3) Make request to your local client to issue print command.  
 
 ## How it works:  
-Once you install the app, it runs a webserver on port `16253`. This web-server runs locally in your system. This webserver creates the communication bridge between your browser (or any external platform) and the OS app. 
+Once you install the app, it runs a webserver on port `16253`. This web-server runs locally in your system and should be accessible at `localhost:16253`. 
+This webserver creates the communication bridge between your browser (or any external platform) and the OS app. 
 The webserver has following endpoints:  
 
 1) `:16253/` - `GET` - gives you the current printer status.  
